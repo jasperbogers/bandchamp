@@ -23,7 +23,7 @@ function Playlist({playlist}) {
         setActiveTrack(track);
     }
 
-    return playlist !== undefined && (
+    return (playlist !== undefined && (
         <>
             <h2>Active playlist</h2>
             <p>{playlist.description}</p>
@@ -36,7 +36,7 @@ function Playlist({playlist}) {
                 )}
             </ul>
         </>
-    )
+    )) || null
 }
 
 export default Playlist;
