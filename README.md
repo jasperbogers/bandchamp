@@ -19,7 +19,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-[TODO] Only the default React test is provided and it's broken.
+[TODO] Only the default React test is provided and it's broken. See https://github.com/jasperbogers/bandchamp/issues/2
 
 ### `npm run build`
 
